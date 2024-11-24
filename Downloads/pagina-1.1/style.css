@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body{
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content:  space-between;
+    height: 63px;
+    background:  #141414;
+    position: fixed;
+    width:  100%;
+    z-index: 100%;
+}
+
+
+.navbar{ 
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo{
+    
+    margin-left: 30px;
+}
+
+.logo a { 
+    text-decoration: none;
+    color:#a01919;
+    text-transform: uppercase;
+    font-size: 20px;
+     
+    }
+
+
+.navbar a{
+    display: block;
+    padding: 23px 20px;
+    color: #f7f6f6;
+    text-decoration: none ;
+    text-transform:  uppercase;
+    font-size: 20px;
+
+}
+.navbar a:hover{
+    background:  #525151;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    height: 60vh !important;
+    background:  url(img/header.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.title{
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform:  uppercase;
+    color: #af952a;
+}
+
+p{
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #f7f5f5;
+    padding: 0 100px;
+}
+
+.btn {
+    display:  inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #b2b0b0;
+    color: #fffefe;
+    text-decoration:  none;
+    background:  #802980;
+}
+
+.btn:hover{
+    background: none;
+}
+
+.btn-home{
+    display: flex;
+}
+
+.btn-home{
+    margin: 0 10px;
+}
+
+.content{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sau{
+    padding: 30px;
+    background: #030303;
+}
+
+.box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap:  wrap;
+    text-align: center;
+}
+
+.box-container .box{
+    height: 11rem;
+    width: 17rem;
+    background: #1f1e1e;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+}
+
+.box-container .box i{
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #f6f4f4;
+    background: #9c27b0;
+    font-size: 2rem;
+    margin: 1rem 0rem;
+}
+
+.box-container .box h3{
+font-size: 20px;
+color: #9c27b0;
+}
+
+.box-container .box p{
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.about{
+    background: #212121;
+}
+
+.price{
+    background: url(img/costos.jpg)n\ no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+
+}
+
+.contact{
+    padding-top: 20px;
+    background: #2e2c2c;
+    padding-top: 0;
+}
+
+@media (max-width: 768px) {
+    .title{
+        margin-bottom: 0;
+        font-size: 40px;
+
+    }
+    
+    .sau{
+        height: 120vh;
+    }
+}
